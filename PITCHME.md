@@ -75,14 +75,14 @@ Service   | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
 ### Directives
 Tipo      | Fonte        | Parâmetros                       
 --------- | ------------ | -----------------------------
-Directive | helpSign     | Mesmos o método [help.get]() 
-Directive | helpLink     | Mesmos o método [help.get]() 
-Directive | *helpSearch  | Mesmos o método [help.get]() 
-Directive | *helpCards   | Mesmos o método [help.get]()
-Service   | *helpSummary | Mesmos o método [help.get]()
+Directive | helpSign     | [help.get]() 
+Directive | helpLink     | [help.get]() 
+Directive | *helpSearch  | [help.get]() 
+Directive | *helpCards   | [help.get]()
+Directive | *helpSummary | [help.get]()
 
 
-#VSLIDE
+#HSLIDE
 # Exemplos
 ``` html
 <help-sign tags='cadastro,vinculo'></help-sign>
