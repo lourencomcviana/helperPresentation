@@ -63,13 +63,14 @@ Tipo      | Fonte        | Método | Parâmetros                        | Retorn
 Provider  | helpProvider | add    | [Help]() or [[Help]()]            | N/A
 Provider  | helpProvider | delete | N/A                               | N/A
 
-### Services
+
 #VSLIDE
+### Services
 Tipo      | Fonte        | Método | Parâmetros                        | Retorno
 --------- | ------------ | ------ | --------------------------------- | -----------
 Service   | help         | get    | [Search]()                        | [Help]    
 Service   | help         | update | N/A                               | [String]
-Service   | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
+Service   | helpDialog   | show   | [help.get]()      | N/A
   
 #VSLIDE
 ### Directives
