@@ -58,17 +58,26 @@ Help, Search, Summary
 ## Providers e services 
 Todos os métodos retornam [**Promessas**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-Tipo     | Fonte        | Método | Parâmetros                        | Retorno
----------| ------------ | ------ | --------------------------------- | -----------
-Provider | helpProvider | add    | [Help]() or [[Help]()]            | N/A
-Provider | helpProvider | delete | N/A                               | N/A
-Service  | help         | get    | [Search]()                        | [Help]      
+Tipo      | Fonte        | Método | Parâmetros                        | Retorno
+--------- | ------------ | ------ | --------------------------------- | -----------
+Provider  | helpProvider | add    | [Help]() or [[Help]()]            | N/A
+Provider  | helpProvider | delete | N/A                               | N/A
 #VSLIDE
-Tipo     | Fonte        | Método | Parâmetros                        | Retorno
----------| ------------ | ------ | --------------------------------- | -----------
-Service  | help         | update | N/A                               | [String]
-Service  | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
-Service  | helpSummary  |        |  |
+Tipo      | Fonte        | Método | Parâmetros                        | Retorno
+--------- | ------------ | ------ | --------------------------------- | -----------
+Service   | help         | update | N/A                               | [String]
+Service   | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
+Service   | *helpSummary |        |  |
+Service   | help         | get    | [Search]()                        | [Help]      
+#VSLIDE
+Tipo      | Fonte        | Método | Parâmetros                        | Retorno
+--------- | ------------ | ------ | --------------------------------- | -----------
+Directive | helpSign     | N/A    | Mesmos o método [help.get]() | N/A
+Directive | helpLink     | N/A    | Mesmos o método [help.get]() | N/A
+Directive | *helpSearch  | N/A    | Mesmos o método [help.get]() | N/A
+Directive | *helpCards   | N/A    | Mesmos o método [help.get]() | N/A
+*ainda não implementado
+
 
 #HSLIDE
 ## Documentação
