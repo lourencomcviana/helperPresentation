@@ -98,4 +98,4 @@ Directive | *helpSummary | [help.get]()
 
 #HSLIDE
 ## Documentação
-(helper)[http://x-oc-config.sefa.pa.gov.br/gitlab/sefa/sefa-ui/wikis/helper]
+[helper](http://x-oc-config.sefa.pa.gov.br/gitlab/sefa/sefa-ui/wikis/helper)
