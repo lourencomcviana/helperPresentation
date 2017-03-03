@@ -89,12 +89,12 @@ Directive | *helpSummary | [help.get]()
 <help-sign tags='cadastro,vinculo'></help-sign>
 <help-link>dolor sit amet</help-link>
 ```
-#VSLIDE
-![dialog](dialog.png)
-#VSLIDE
-![dialogbusca](dialogbusca.png)
-#VSLIDE
-![dialogddl](dialogddl.png)
+#VSLIDE?image=dialog.png
+
+#VSLIDE?image=dialogbusca.png
+
+#VSLIDE?image=dialogddl.png
+
 
 #HSLIDE
 ## Documentação
