@@ -55,29 +55,45 @@ Help, Search, Summary
 *Em desenvolvimento*
 ```
 #HSLIDE
-## Providers e services 
+### Providerss 
 Todos os métodos retornam [**Promessas**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 Tipo      | Fonte        | Método | Parâmetros                        | Retorno
 --------- | ------------ | ------ | --------------------------------- | -----------
 Provider  | helpProvider | add    | [Help]() or [[Help]()]            | N/A
 Provider  | helpProvider | delete | N/A                               | N/A
+
+### Services
 #VSLIDE
 Tipo      | Fonte        | Método | Parâmetros                        | Retorno
 --------- | ------------ | ------ | --------------------------------- | -----------
+Service   | help         | get    | [Search]()                        | [Help]    
 Service   | help         | update | N/A                               | [String]
 Service   | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
-Service   | *helpSummary |        |  |
-Service   | help         | get    | [Search]()                        | [Help]      
+  
 #VSLIDE
-Tipo      | Fonte        | Método | Parâmetros                        | Retorno
---------- | ------------ | ------ | --------------------------------- | -----------
-Directive | helpSign     | N/A    | Mesmos o método [help.get]() | N/A
-Directive | helpLink     | N/A    | Mesmos o método [help.get]() | N/A
-Directive | *helpSearch  | N/A    | Mesmos o método [help.get]() | N/A
-Directive | *helpCards   | N/A    | Mesmos o método [help.get]() | N/A
-*ainda não implementado
+### Directives
+Tipo      | Fonte        | Parâmetros                       
+--------- | ------------ | -----------------------------
+Directive | helpSign     | Mesmos o método [help.get]() 
+Directive | helpLink     | Mesmos o método [help.get]() 
+Directive | *helpSearch  | Mesmos o método [help.get]() 
+Directive | *helpCards   | Mesmos o método [help.get]()
+Service   | *helpSummary | Mesmos o método [help.get]()
 
+
+#VSLIDE
+# Exemplos
+``` html
+<help-sign tags='cadastro,vinculo'></help-sign>
+<help-link>dolor sit amet</help-link>
+```
+#VSLIDE
+![dialog](dialog.png)
+#VSLIDE
+![dialogbusca](dialogbusca.png)
+#VSLIDE
+![dialogddl](dialogddl.png)
 
 #HSLIDE
 ## Documentação
