@@ -63,6 +63,9 @@ Tipo     | Fonte        | Método | Parâmetros                        | Retorno
 Provider | helpProvider | add    | [Help]() or [[Help]()]            | N/A
 Provider | helpProvider | delete | N/A                               | N/A
 Service  | help         | get    | [Search]()                        | [Help]      
+#VSLIDE
+Tipo     | Fonte        | Método | Parâmetros                        | Retorno
+---------| ------------ | ------ | --------------------------------- | -----------
 Service  | help         | update | N/A                               | [String]
 Service  | helpDialog   | show   | Mesmos o método [help.get]()      | N/A
 Service  | helpSummary  |        |  |
